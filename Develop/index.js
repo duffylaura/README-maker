@@ -10,7 +10,13 @@ inquirer.prompt([
         name: 'title', 
         message: 'Title of  your project:',
     }, 
-    /*
+
+    {
+        type: 'input',
+        name: 'describe', 
+        message: 'Describe your function in 1-2 sentences:',
+    }, 
+    
     {
         type: 'input',
         name: 'motivation', 
@@ -40,7 +46,7 @@ inquirer.prompt([
     {
         type: 'input', 
         name: 'usage',
-        message: 'Provide instruction and examples for use',
+        message: 'Provide instruction and examples for use:',
     },
     {
         type: 'input',
@@ -53,7 +59,6 @@ inquirer.prompt([
         name: 'liscence',
         message: 'Liscence type or information on liscence:',
     },
-    */
 ])
 
 .then((answers)=>{       //Create a function to write README file -- Example: fuction writeToFile(fileName, data) {}
@@ -65,8 +70,32 @@ inquirer.prompt([
 });
 
 function generateMd(answers) {
-return (
-   '#Title:' + $(answers.title) //Won't accept dollar sign
+return (                            //Won't accept dollar sign //BACK TICKS NOT SINGLE QUOTES
+   `# Title: ${answers.title} 
+   
+   # Description 
+
+   * ${answers.describe}
+   * ${answers.motivation}
+   * ${answers.solve}
+   * ${answers.learn}
+   * ${answers.standout}
+
+   # Installation 
+
+   ${answers.installation}
+
+   # Usage 
+
+   ${answers.usage}
+
+   # Collaborators 
+
+   ${answers.collaborators}
+
+   # Liscence
+
+   ${answers.liscence} ` 
 )
 };
 
