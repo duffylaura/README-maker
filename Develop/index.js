@@ -55,10 +55,14 @@ inquirer.prompt([
     },
 
     {
-        type: 'input',
+        type: 'input', //Need to make a drop down // Then use functions to get badge and info on liscence // Need info 
         name: 'liscence',
         message: 'Liscence type or information on liscence:',
     },
+
+    //Need to get github username > then populate a link to github 
+
+    //Need to get email with directions to email 
 ])
 
 .then((answers)=>{       //Create a function to write README file -- Example: fuction writeToFile(fileName, data) {}
@@ -70,10 +74,10 @@ inquirer.prompt([
 });
 
 function generateMd(answers) {
-return (                            //Won't accept dollar sign //BACK TICKS NOT SINGLE QUOTES
-   `# Title: ${answers.title} 
+return (                            //Won't accept dollar sign >> Now does>> BACK TICKS NOT SINGLE QUOTES
+`# Title: ${answers.title} 
    
-   # Description 
+# Description 
 
    * ${answers.describe}
    * ${answers.motivation}
@@ -81,28 +85,33 @@ return (                            //Won't accept dollar sign //BACK TICKS NOT 
    * ${answers.learn}
    * ${answers.standout}
 
-   # Installation 
+# Table of Contents
 
-   ${answers.installation}
+# Installation 
 
-   # Usage 
+${answers.installation}
 
-   ${answers.usage}
+# Usage 
 
-   # Collaborators 
+${answers.usage}
 
-   ${answers.collaborators}
+# Liscence
 
-   # Liscence
 
-   ${answers.liscence} ` 
+# Collaborators 
+
+${answers.collaborators}
+
+#Questions
+
+` 
 )
 };
 
 
 
 
-//Don't understand the below code: Also the code in utils
+//Don't understand the below code: Also the code in utils, why? Why not here?
 // TODO: Create a function to initialize app
 function init() {}
 
