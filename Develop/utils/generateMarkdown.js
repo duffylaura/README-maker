@@ -16,7 +16,7 @@ return (
   `
   # Title: ${data.title} 
       
-  # Description 
+  ## Description 
 
     * ${data.describe}
     * ${data.motivation}
@@ -24,37 +24,35 @@ return (
     * ${data.learn}
     * ${data.standout}
     
-  # Table of Contents
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Liscence](#liscence)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-    *[Installation](#Installation)
-    *[Usage](#Usage)
-    *[Liscence](#Liscence)
-    *[Contributing](#Contributing)
-    *[Tests](#Tests)
-    *[Questions](#Questions)
-
-    
-  # [Installation](#Installation)
+  ## Installation
 
   ${data.installation}
     
-  # [Usage](#Usage)
+  ## Usage
 
   ${data.usage}
     
-  # Liscence {#Liscence}
+  ## Liscence
     
-  # Contributing {#Contributing}
+  ## Contributing 
 
   The following people collaborated on this project with me: ${data.collaborators}. 
 
   Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/${data.username}/${data.repo}).
 
-  # Tests {#Tests}
+  ## Tests 
 
   ${data.test}
     
-  # Questions {#Questions}
+  ## Questions
 
   Please email ${data.email} or contact me thgrough GitHub [github.com/${data.username}/${data.repo}](github.com/${data.username}/${data.repo}).
   ` 
