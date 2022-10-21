@@ -73,8 +73,10 @@ inquirer.prompt([
     );
 });
 
+//This return string should be in generateMarkdown.js file (copy )
+
 function generateMd(answers) {
-return (                            //Won't accept dollar sign >> Now does>> BACK TICKS NOT SINGLE QUOTES
+return (                            
 `# Title: ${answers.title} 
    
 # Description 
@@ -102,18 +104,23 @@ ${answers.usage}
 
 ${answers.collaborators}
 
-#Questions
+# Questions
 
 ` 
 )
 };
 
 
-
-
 //Don't understand the below code: Also the code in utils, why? Why not here?
+
 // TODO: Create a function to initialize app
 function init() {}
+
+// Generate the prompt 
+//At the end, call the generateMarkdown function 
+
+
+
 
 // Function call to initialize app
 init();
