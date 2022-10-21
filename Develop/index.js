@@ -20,9 +20,9 @@ const licenseChoices = [
     "BSD 3-clause 'New' or 'Revised' license",
     "BSD 3-clause Clear license",
     "Creative Commons license family",
-    "Creative Commons Zero v1.0 Universal",
-    "Creative Commons Attribution 4.0",
-    "Creative Commons Attribution Share Alike 4.0",
+    "Creative Commons Zero v1.0 Universal license",
+    "Creative Commons Attribution 4.0 license",
+    "Creative Commons Attribution Share Alike 4.0 license",
     "Do What The F*ck You Want To Public License",
     "Educational Community License v2.0",
     "Eclipse Public License 1.0",
@@ -35,16 +35,16 @@ const licenseChoices = [
     "GNU Lesser General Public License family",
     "GNU Lesser General Public License v2.1",
     "GNU Lesser General Public License v3.0",
-    "ISC",
+    "ISC license",
     "LaTeX Project Public License v1.3c",
     "Microsoft Public License",
-    "MIT",
+    "MIT license",
     "Mozilla Public License 2.0",
     "Open Software License 3.0",
     "PostgreSQL License",
     "SIL Open Font License 1.1",
     "University of Illinois/NCSA Open Source License",
-    "The Unlicense",
+    "the Unlicense",
     "zLib License"];
     
 // TODO: Create an array of questions for user input Example: const questions = []; 
@@ -62,6 +62,7 @@ const questions = [
         message: 'Describe your function in 1-2 sentences:',
     }, 
     
+    /*
     {
         type: 'input',
         name: 'motivation', 
@@ -96,7 +97,7 @@ const questions = [
 
 /// license moved to bottom
 
-/*
+
     {
         type: 'input',
         name: 'collaborators',

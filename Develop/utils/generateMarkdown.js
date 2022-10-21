@@ -42,7 +42,7 @@ return (
     
   ## License
 
-  This project is licensed under the terms of the ${data.license} license.
+  This project is licensed under the terms of ${data.license}.
     
   ## Contributing 
 
