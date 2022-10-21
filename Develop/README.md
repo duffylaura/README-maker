@@ -1,15 +1,15 @@
 
-  [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  # Title: pppp 
+  # Title: Password Generator 
       
   ## Description 
 
-    * ppppp
-    * ppppp
-    * pppppp
-    * pppp
-    * ppppp
+    * Makes passwords
+    * Needed to
+    * Cybersecurity
+    * Writing code
+    * Form instead of prompts
     
   ## Table of Contents
   - [Installation](#installation)
@@ -21,21 +21,21 @@
 
   ## Installation
 
-  ppp
+  N/A
     
   ## Usage
 
-  pp
+  N/A
     
   ## License
 
-  This project is licensed under the terms of the MIT.
-    
+  This project is licensed under the terms of MIT license.
+   
   ## Contributing 
 
-  The following people collaborated on this project with me: undefined. 
+  The following people collaborated on this project with me: N/A. 
 
-  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/undefined/undefined).
+  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/duffylaura/README-maker).
 
   ## Tests 
 
@@ -43,5 +43,5 @@
     
   ## Questions
 
-  Please email undefined or contact me thgrough GitHub [github.com/undefined/undefined](github.com/undefined/undefined).
+  Please email lauraduffy700@gmail.com or contact me thgrough GitHub [github.com/duffylaura/README-maker](github.com/duffylaura/README-maker).
   

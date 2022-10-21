@@ -7,45 +7,18 @@ const inquirer = require('inquirer');
 inquirer.registerPrompt('search-list', require('inquirer-search-list'));
 
 const fs = require('fs');
+
+// importing generateMarkdown file
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 //License Choices
 
 const licenseChoices = [
-    "Academic Free License v3.0", 
     "Apache license 2.0", 
-    "Artistic license 2.0", 
     "Boost Software License 1.0",
-    "BSD 2-clause 'Simplified' license",
-    "BSD 3-clause 'New' or 'Revised' license",
-    "BSD 3-clause Clear license",
-    "Creative Commons license family",
-    "Creative Commons Zero v1.0 Universal license",
-    "Creative Commons Attribution 4.0 license",
-    "Creative Commons Attribution Share Alike 4.0 license",
     "Do What The F*ck You Want To Public License",
-    "Educational Community License v2.0",
     "Eclipse Public License 1.0",
-    "Eclipse Public License 2.0",
-    "European Union Public License 1.1",
-    "GNU Affero General Public License v3.0",
-    "GNU General Public License family",
-    "GNU General Public License v2.0",
-    "GNU General Public License v3.0",
-    "GNU Lesser General Public License family",
-    "GNU Lesser General Public License v2.1",
-    "GNU Lesser General Public License v3.0",
-    "ISC license",
-    "LaTeX Project Public License v1.3c",
-    "Microsoft Public License",
-    "MIT license",
-    "Mozilla Public License 2.0",
-    "Open Software License 3.0",
-    "PostgreSQL License",
-    "SIL Open Font License 1.1",
-    "University of Illinois/NCSA Open Source License",
-    "the Unlicense",
-    "zLib License"];
+    "MIT license"];
     
 // TODO: Create an array of questions for user input Example: const questions = []; 
 
@@ -62,7 +35,7 @@ const questions = [
         message: 'Describe your function in 1-2 sentences:',
     }, 
     
-    /*
+    //
     {
         type: 'input',
         name: 'motivation', 
@@ -127,7 +100,7 @@ const questions = [
         name: 'email',
         message: 'State your email:',
     },
-    */
+    //
 
     {
         type: 'search-list', 
