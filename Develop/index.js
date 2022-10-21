@@ -1,10 +1,11 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input Example: const questions = []; 
 
-inquirer.prompt([
+const questions = [
     {
         type: 'input',
         name: 'title', 
@@ -63,64 +64,20 @@ inquirer.prompt([
     //Need to get github username > then populate a link to github 
 
     //Need to get email with directions to email 
-])
+];
 
-.then((answers)=>{       //Create a function to write README file -- Example: fuction writeToFile(fileName, data) {}
-    const content = generateMd(answers); 
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
 
-    fs.writeFile('README.md', content, (err)=>
+.then((data)=>{       //Create a function to write README file -- Example: fuction writeToFile(fileName, data) {}
+    const content = generateMarkdown(data); 
+
+    fs.writeFile('README.md', content, (err)=>          //James suggested telling comp which readme to use in a diff folder
         err ? console.log(err): console.log('Created your README successfully.')
     );
 });
-
-//This return string should be in generateMarkdown.js file (copy )
-
-function generateMd(answers) {
-return (                            
-`# Title: ${answers.title} 
-   
-# Description 
-
-   * ${answers.describe}
-   * ${answers.motivation}
-   * ${answers.solve}
-   * ${answers.learn}
-   * ${answers.standout}
-
-# Table of Contents
-
-# Installation 
-
-${answers.installation}
-
-# Usage 
-
-${answers.usage}
-
-# Liscence
-
-
-# Collaborators 
-
-${answers.collaborators}
-
-# Questions
-
-` 
-)
-};
-
-
-//Don't understand the below code: Also the code in utils, why? Why not here?
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Generate the prompt 
-//At the end, call the generateMarkdown function 
-
-
-
+}
 
 // Function call to initialize app
 init();
