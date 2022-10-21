@@ -1,7 +1,7 @@
 
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
 
-  # Title: Password Generator 
+  # Title: Password Gen 
       
   ## Description 
 
@@ -9,7 +9,7 @@
     * Needed to
     * Cybersecurity
     * Writing code
-    * Form instead of prompts
+    * Form instead of prompts 
     
   ## Table of Contents
   - [Installation](#installation)
@@ -25,21 +25,23 @@
     
   ## Usage
 
-  N/A
+  Examples for usage
     
   ## License
 
-  This project is licensed under the terms of MIT license.
+  This project is licensed under the terms of Apache license 2.0.
+
+  For more information on this license, please visit [this link](https://www.apache.org/licenses/LICENSE-2.0).
    
   ## Contributing 
 
-  The following people collaborated on this project with me: N/A. 
+  The following people collaborated on this project with me: Collabzzzz. 
 
   Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/duffylaura/README-maker).
 
   ## Tests 
 
-  undefined
+  Instructions are stated. 
     
   ## Questions
 

@@ -79,7 +79,7 @@ const questions = [
 
     {
         type: 'input',
-        name: 'tests',
+        name: 'test',
         message: 'State your test instructions. If none, write "N/A"',
     },
 

@@ -7,7 +7,7 @@ function licenseExtras(data) {
 
 if (data.license === "Apache license 2.0") {
   let extra = {
-    badge:"[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    badge:"[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]",
     link: "https://www.apache.org/licenses/LICENSE-2.0"}
 return (extra); } 
   
@@ -76,6 +76,8 @@ function generateMarkdown(data) {
   ## License
 
   This project is licensed under the terms of ${data.license}.
+
+  For more information on this license, please visit [this link](${extra.link}).
    
   ## Contributing 
 
