@@ -13,34 +13,49 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) { //Just create the string here then write the file on the main page  //This return string should be in generateMarkdown.js file (copy )
 return (                     
-    `# Title: ${data.title} 
+  `
+  # Title: ${data.title} 
       
-    # Description 
+  ## Description 
+
+    * ${data.describe}
+    * ${data.motivation}
+    * ${data.solve}
+    * ${data.learn}
+    * ${data.standout}
     
-      * ${data.describe}
-      * ${data.motivation}
-      * ${data.solve}
-      * ${data.learn}
-      * ${data.standout}
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Liscence](#liscence)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+  ## Installation
+
+  ${data.installation}
     
-    # Table of Contents
+  ## Usage
+
+  ${data.usage}
     
-    # Installation 
+  ## Liscence
     
-    ${data.installation}
+  ## Contributing 
+
+  The following people collaborated on this project with me: ${data.collaborators}. 
+
+  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/${data.username}/${data.repo}).
+
+  ## Tests 
+
+  ${data.test}
     
-    # Usage 
-    
-    ${data.usage}
-    
-    # Liscence
-    
-    
-    # Collaborators 
-    
-    ${data.collaborators}
-    
-    # Questions   ` 
+  ## Questions
+
+  Please email ${data.email} or contact me thgrough GitHub [github.com/${data.username}/${data.repo}](github.com/${data.username}/${data.repo}).
+  ` 
   )};
 
 module.exports = generateMarkdown;  //Don't know what this is for 

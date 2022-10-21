@@ -42,28 +42,50 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project?',
+        message: 'What are the steps required to install your project? If none, write "N/A." ',
     },
     {
         type: 'input', 
         name: 'usage',
-        message: 'Provide instruction and examples for use:',
+        message: 'Provide instruction and examples for use. If none, write "N/A."',
     },
-    {
-        type: 'input',
-        name: 'collaborators',
-        message: 'List your collaborators, if any',
-    },
-
+/*
     {
         type: 'input', //Need to make a drop down // Then use functions to get badge and info on liscence // Need info 
         name: 'liscence',
         message: 'Liscence type or information on liscence:',
     },
+*/
 
-    //Need to get github username > then populate a link to github 
+    {
+        type: 'input',
+        name: 'collaborators',
+        message: 'List your collaborators, if any. If none, write "N/A"',
+    },
 
-    //Need to get email with directions to email 
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'State your test instructions. If none, write "N/A"',
+    },
+
+    {
+        type: 'input',
+        name: 'username',
+        message: 'State your GitHub username:',
+    },
+
+    {
+        type: 'input',
+        name: 'repo',
+        message: 'State the repo this project was built in:',
+    },
+
+    {
+        type: 'input',  
+        name: 'email',
+        message: 'State your email:',
+    }
 ];
 
 // TODO: Create a function to initialize app
