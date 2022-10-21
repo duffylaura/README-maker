@@ -41,6 +41,8 @@ return (
   ${data.usage}
     
   ## License
+
+  This project is licensed under the terms of the ${data.license} license.
     
   ## Contributing 
 
