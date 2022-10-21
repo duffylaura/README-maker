@@ -28,20 +28,16 @@ const questions = [
         name: 'title', 
         message: 'Title of  your project:',
     }, 
-
     {
         type: 'input',
         name: 'describe', 
         message: 'Describe your function in 1-2 sentences:',
     }, 
-    
-    //
     {
         type: 'input',
         name: 'motivation', 
         message: 'What motivated this project?',
     }, 
-
     {
         type: 'input', 
         name: 'solve',
@@ -67,41 +63,31 @@ const questions = [
         name: 'usage',
         message: 'Provide instruction and examples for use. If none, write "N/A."',
     },
-
-/// license moved to bottom
-
-
     {
         type: 'input',
         name: 'collaborators',
         message: 'List your collaborators, if any. If none, write "N/A"',
     },
-
     {
         type: 'input',
         name: 'test',
         message: 'State your test instructions. If none, write "N/A"',
     },
-
     {
         type: 'input',
         name: 'username',
         message: 'State your GitHub username:',
     },
-
     {
         type: 'input',
         name: 'repo',
         message: 'State the repo this project was built in:',
     },
-
     {
         type: 'input',  
         name: 'email',
         message: 'State your email:',
     },
-    //
-
     {
         type: 'search-list', 
         message: 'Select your license:',
