@@ -1,5 +1,13 @@
 // TODO: Include packages needed for this application
+
+// Strict 
 const inquirer = require('inquirer');
+
+// Register plugin
+inquirer.registerPrompt('search-list', require('inquirer-search-list'));
+
+
+
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
@@ -49,14 +57,10 @@ const questions = [
         name: 'usage',
         message: 'Provide instruction and examples for use. If none, write "N/A."',
     },
-/*
-    {
-        type: 'input', //Need to make a drop down // Then use functions to get badge and info on liscence // Need info 
-        name: 'liscence',
-        message: 'Liscence type or information on liscence:',
-    },
-*/
 
+/// license moved to bottom
+
+/*
     {
         type: 'input',
         name: 'collaborators',
@@ -85,6 +89,14 @@ const questions = [
         type: 'input',  
         name: 'email',
         message: 'State your email:',
+    },
+    */
+
+    {
+        type: 'search-list', 
+        message: 'Select your license:',
+        name: 'license',
+        choices: ['Choice 1', 'Choice 2', 'Choice 3'],
     }
 ];
 

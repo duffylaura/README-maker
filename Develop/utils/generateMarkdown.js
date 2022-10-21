@@ -27,7 +27,7 @@ return (
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Liscence](#liscence)
+  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
@@ -40,7 +40,7 @@ return (
 
   ${data.usage}
     
-  ## Liscence
+  ## License
     
   ## Contributing 
 

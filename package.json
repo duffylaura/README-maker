@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "inquirer-search-list": "^1.2.6"
+  }
+}
