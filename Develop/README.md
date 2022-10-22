@@ -1,15 +1,15 @@
 
-  # Title: skdfj 
+  # Title: sjfdls 
 
-  [![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
+  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://www.eclipse.org/legal/epl-v10.html)
       
   ## Description 
 
-    * sldkfjs
-    * sldkfjs
-    * sldkfjs
-    * sldkfjs
-    * sldkfjs
+    * sfowiefjoie
+    * eoiwueroeowiu
+    * oeiruwoi
+    * osdjfosidfj
+    * sfdnosidj
     
   ## Table of Contents
   - [Installation](#installation)
@@ -21,29 +21,29 @@
 
   ## Installation
 
-  sldjfoise
+  sdofjso
     
   ## Usage
 
-  slijfwiemfls
+  sdojoifsd
     
   ## License
 
-  This project is licensed under the terms of Do What The F*ck You Want To Public License.
+  This project is licensed under the terms of Eclipse Public License 1.0.
 
-  For more information on this license, please visit [this link](http://www.wtfpl.net/).
+  For more information on this license, please visit [this link](https://www.eclipse.org/legal/epl-v10.html).
    
   ## Contributing 
 
-  The following people collaborated on this project with me: slemflsidf. 
+  The following people collaborated on this project with me: fosdijfoisdj. 
 
-  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/sdlkfsldkf/sdlfjslkdfj).
+  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/soidfjos/sdifosdjf).
 
   ## Tests 
 
-  sdlfjsldk
+  dsfjsoi
     
   ## Questions
 
-  Please email sdlfkjsdl or contact me thgrough GitHub [github.com/sdlkfsldkf/sdlfjslkdfj](github.com/sdlkfsldkf/sdlfjslkdfj).
+  Please email sodifj or contact me thgrough GitHub [github.com/soidfjos/sdifosdjf](github.com/soidfjos/sdifosdjf).
   
