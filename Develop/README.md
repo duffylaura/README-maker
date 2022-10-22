@@ -1,15 +1,15 @@
 
-  # Title: sjfdls 
+  # Title: jfldksjf 
 
-  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://www.eclipse.org/legal/epl-v10.html)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
       
   ## Description 
 
-    * sfowiefjoie
-    * eoiwueroeowiu
-    * oeiruwoi
-    * osdjfosidfj
-    * sfdnosidj
+    * sdlkfjsld
+    * sdlfjsldk
+    * sdfjslkj
+    * fsldkjfs
+    * lskdjflks
     
   ## Table of Contents
   - [Installation](#installation)
@@ -21,29 +21,29 @@
 
   ## Installation
 
-  sdofjso
+  sdlfkjl
     
   ## Usage
 
-  sdojoifsd
+  sdlfkjs
     
   ## License
 
-  This project is licensed under the terms of Eclipse Public License 1.0.
+  This project is licensed under the terms of MIT license.
 
-  For more information on this license, please visit [this link](https://www.eclipse.org/legal/epl-v10.html).
+  For more information on this license, please visit [this link](https://opensource.org/licenses/MIT).
    
   ## Contributing 
 
-  The following people collaborated on this project with me: fosdijfoisdj. 
+  The following people collaborated on this project with me: sdlfkjsl. 
 
-  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/soidfjos/sdifosdjf).
+  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/sdflkjd/sldkfdkj).
 
   ## Tests 
 
-  dsfjsoi
+  sldfjsl
     
   ## Questions
 
-  Please email sodifj or contact me thgrough GitHub [github.com/soidfjos/sdifosdjf](github.com/soidfjos/sdifosdjf).
+  Please email ldkfjls or contact me thgrough GitHub [github.com/sdflkjd/sldkfdkj](github.com/sdflkjd/sldkfdkj).
   
