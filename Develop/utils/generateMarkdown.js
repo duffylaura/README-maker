@@ -8,31 +8,30 @@ function licenseExtras(data) {
 if (data.license === "Apache license 2.0") {
   let extra = {
     badge: "https://img.shields.io/badge/License-Apache_2.0-blue.svg",
-    //badge:"[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
     link: "https://www.apache.org/licenses/LICENSE-2.0"}
 return (extra); } 
   
 if (data.license === "Boost Software License 1.0") {
   let extra = {
-  badge: "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)",
+  badge: "https://img.shields.io/badge/License-Boost_1.0-lightblue.svg",
   link: "https://www.boost.org/users/license.html"}
 return (extra); } 
   
 if (data.license === "Do What The F*ck You Want To Public License") {
   let extra = {
-  badge: "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)",
+  badge: "https://img.shields.io/badge/License-WTFPL-brightgreen.svg",
   link: "http://www.wtfpl.net/"}
 return (extra); } 
   
 if (data.license === "Eclipse Public License 1.0") {
   let extra = {
-  badge: "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)",
+  badge: "https://img.shields.io/badge/License-EPL_1.0-red.svg",
   link: "https://www.eclipse.org/legal/epl-v10.html"}
 return (extra); } 
   
 if (data.license === "MIT license") {
   let extra = {
-  badge: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  badge: "https://img.shields.io/badge/License-MIT-yellow.svg",
   link: "https://opensource.org/licenses/MIT"}
 return (extra); } 
 

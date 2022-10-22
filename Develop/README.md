@@ -1,15 +1,15 @@
 
-  # Title: jskljflkd 
+  # Title: dlkjfl;d 
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+  [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/users/license.html)
       
   ## Description 
 
-    * sdlfkjdlkf
-    * sdflksjd
-    * sdlkfjlsdk
+    * sldkfjsdl
+    * sdkfjlsd
+    * sdlkfjsld
     * sdlfkjsdlk
-    * sldkfjlsd
+    * sdlfkjdlf
     
   ## Table of Contents
   - [Installation](#installation)
@@ -21,29 +21,29 @@
 
   ## Installation
 
-  sldkfj
+  sdlfkjsdl
     
   ## Usage
 
-  sldkfj
+  sdlfkjsldkfj
     
   ## License
 
-  This project is licensed under the terms of Apache license 2.0.
+  This project is licensed under the terms of Boost Software License 1.0.
 
-  For more information on this license, please visit [this link](https://www.apache.org/licenses/LICENSE-2.0).
+  For more information on this license, please visit [this link](https://www.boost.org/users/license.html).
    
   ## Contributing 
 
-  The following people collaborated on this project with me: sdlkfj. 
+  The following people collaborated on this project with me: sdlfkjsdlf. 
 
-  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/sldkfj/lskdfj).
+  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/sdlkfjlskd/sdlj).
 
   ## Tests 
 
-  slkfjd
+  sdfjsldkfj
     
   ## Questions
 
-  Please email sdlkfj or contact me thgrough GitHub [github.com/sldkfj/lskdfj](github.com/sldkfj/lskdfj).
+  Please email dflsd or contact me thgrough GitHub [github.com/sdlkfjlskd/sdlj](github.com/sdlkfjlskd/sdlj).
   
