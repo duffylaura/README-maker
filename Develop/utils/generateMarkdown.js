@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in. (If there is no license, return an empty string.)
-// Got the "okay" during office hour meeting to combine three suggested functions into one function as they would all be running if statements compared against the same list
+// Got the "okay" during office hour meeting to combine three suggested functions into one function as they would all be running if-statements compared against the same list
 //In output object must have badges & link
-//RE USER VALIDATION: don't need to have possibility of nothing returned. Must select a license. 
+//RE USER VALIDATION: don't need to have possibility of nothing returned. Must select a license with this npm feature. Even if type in something random and hit enter, it will default to Apache
 
 function licenseExtras(data) {
 
@@ -36,7 +36,6 @@ if (data.license === "MIT license") {
 return (extra); } 
 
 }
-
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) { 
@@ -83,7 +82,7 @@ function generateMarkdown(data) {
 
   The following people collaborated on this project with me: ${data.collaborators}. 
 
-  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/${data.username}/${data.repo}).
+  Interested in contributing!? There are many ways to contribute to this project. Get started [here](https://github.com/${data.username}/${data.repo}).
 
   ## Tests 
 
@@ -91,7 +90,7 @@ function generateMarkdown(data) {
     
   ## Questions
 
-  Please email ${data.email} or contact me thgrough GitHub [github.com/${data.username}/${data.repo}](github.com/${data.username}/${data.repo}).
+  Please email ${data.email} or contact me thgrough [GitHub] (https://github.com/${data.username}/${data.repo}).
   ` 
   )};
 

@@ -1,15 +1,15 @@
 
-  # Title: jfldksjf 
+  # Title: lskdjfsd 
 
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
       
   ## Description 
 
-    * sdlkfjsld
-    * sdlfjsldk
-    * sdfjslkj
-    * fsldkjfs
-    * lskdjflks
+    * sldfkjs
+    * sdlfkjsd
+    * sdlfkjsd
+    * sdlfkjsd
+    * sdlfkjs
     
   ## Table of Contents
   - [Installation](#installation)
@@ -21,29 +21,29 @@
 
   ## Installation
 
-  sdlfkjl
+  sdlfkj
     
   ## Usage
 
-  sdlfkjs
+  sldkfjlsd
     
   ## License
 
-  This project is licensed under the terms of MIT license.
+  This project is licensed under the terms of Do What The F*ck You Want To Public License.
 
-  For more information on this license, please visit [this link](https://opensource.org/licenses/MIT).
+  For more information on this license, please visit [this link](http://www.wtfpl.net/).
    
   ## Contributing 
 
-  The following people collaborated on this project with me: sdlfkjsl. 
+  The following people collaborated on this project with me: slkdjflsd. 
 
-  Interested in contributing!? There are many ways to contribute to this project. Get started [here](github.com/sdflkjd/sldkfdkj).
+  Interested in contributing!? There are many ways to contribute to this project. Get started [here](https://github.com/octocat/Spoon-Knife).
 
   ## Tests 
 
-  sldfjsl
+  skdlfjdslk
     
   ## Questions
 
-  Please email ldkfjls or contact me thgrough GitHub [github.com/sdflkjd/sldkfdkj](github.com/sdflkjd/sldkfdkj).
+  Please email lauraduffy700@gmail.com or contact me thgrough [GitHub] (https://github.com/octocat/Spoon-Knife).
   
