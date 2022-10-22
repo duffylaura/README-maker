@@ -1,8 +1,25 @@
 // TODO: Include packages needed for this application
+
+// Strict 
 const inquirer = require('inquirer');
+
+// Register plugin
+inquirer.registerPrompt('search-list', require('inquirer-search-list'));
+
 const fs = require('fs');
+
+// importing generateMarkdown file
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
+//License Choices
+
+const licenseChoices = [
+    "Apache license 2.0", 
+    "Boost Software License 1.0",
+    "Do What The F*ck You Want To Public License",
+    "Eclipse Public License 1.0",
+    "MIT license"];
+    
 // TODO: Create an array of questions for user input Example: const questions = []; 
 
 const questions = [
@@ -11,19 +28,16 @@ const questions = [
         name: 'title', 
         message: 'Title of  your project:',
     }, 
-
     {
         type: 'input',
         name: 'describe', 
         message: 'Describe your function in 1-2 sentences:',
     }, 
-    
     {
         type: 'input',
         name: 'motivation', 
         message: 'What motivated this project?',
     }, 
-
     {
         type: 'input', 
         name: 'solve',
@@ -49,42 +63,36 @@ const questions = [
         name: 'usage',
         message: 'Provide instruction and examples for use. If none, write "N/A."',
     },
-/*
-    {
-        type: 'input', //Need to make a drop down // Then use functions to get badge and info on liscence // Need info 
-        name: 'liscence',
-        message: 'Liscence type or information on liscence:',
-    },
-*/
-
     {
         type: 'input',
         name: 'collaborators',
         message: 'List your collaborators, if any. If none, write "N/A"',
     },
-
     {
         type: 'input',
-        name: 'tests',
+        name: 'test',
         message: 'State your test instructions. If none, write "N/A"',
     },
-
     {
         type: 'input',
         name: 'username',
         message: 'State your GitHub username:',
     },
-
     {
         type: 'input',
         name: 'repo',
         message: 'State the repo this project was built in:',
     },
-
     {
         type: 'input',  
         name: 'email',
         message: 'State your email:',
+    },
+    {
+        type: 'search-list', 
+        message: 'Select your license:',
+        name: 'license',
+        choices: licenseChoices,
     }
 ];
 
