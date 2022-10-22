@@ -7,7 +7,7 @@ function licenseExtras(data) {
 
 if (data.license === "Apache license 2.0") {
   let extra = {
-    badge:"![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)",
+    badge:"![License](/badge-images/License-Apache_2.0-blue.svg)",
     link: "https://www.apache.org/licenses/LICENSE-2.0"}
 return (extra); } 
   
