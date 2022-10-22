@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   `
   # Title: ${data.title} 
 
-  [![License] (${extra.badge})]
+  [![License](${extra.badge})](${extra.link})
       
   ## Description 
 
