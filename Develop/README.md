@@ -1,15 +1,15 @@
 
-  # Title: lskdjfsd 
+  # Title: ldfjkld 
 
-  [![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
       
   ## Description 
 
-    * sldfkjs
-    * sdlfkjsd
-    * sdlfkjsd
-    * sdlfkjsd
-    * sdlfkjs
+    * sldfkj
+    * sldfkj
+    * sldfkj
+    * sldfjk
+    * sdlkjf
     
   ## Table of Contents
   - [Installation](#installation)
@@ -21,29 +21,29 @@
 
   ## Installation
 
-  sdlfkj
+  sdflkj
     
   ## Usage
 
-  sldkfjlsd
+  sdlfkj
     
   ## License
 
-  This project is licensed under the terms of Do What The F*ck You Want To Public License.
+  This project is licensed under the terms of MIT license.
 
-  For more information on this license, please visit [this link](http://www.wtfpl.net/).
+  For more information on this license, please visit [this link](https://opensource.org/licenses/MIT).
    
   ## Contributing 
 
-  The following people collaborated on this project with me: slkdjflsd. 
+  The following people collaborated on this project with me: sdlfkj. 
 
-  Interested in contributing!? There are many ways to contribute to this project. Get started [here](https://github.com/octocat/Spoon-Knife).
+  Interested in contributing!? There are many ways to contribute to this project. Get started [here](https://github.com/duffylaura/README-maker).
 
   ## Tests 
 
-  skdlfjdslk
+  lskdjf
     
   ## Questions
 
-  Please email lauraduffy700@gmail.com or contact me thgrough [GitHub] (https://github.com/octocat/Spoon-Knife).
+  Please email lauraduffy700@gmail.com or contact me thgrough [GitHub](https://github.com/duffylaura/README-maker).
   

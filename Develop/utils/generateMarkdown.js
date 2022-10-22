@@ -90,7 +90,7 @@ function generateMarkdown(data) {
     
   ## Questions
 
-  Please email ${data.email} or contact me thgrough [GitHub] (https://github.com/${data.username}/${data.repo}).
+  Please email ${data.email} or contact me thgrough [GitHub](https://github.com/${data.username}/${data.repo}).
   ` 
   )};
 
